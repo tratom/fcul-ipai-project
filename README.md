@@ -10,4 +10,4 @@ Faculty of Science, University of Lisbon
 
 
 #### NTSB Dataset
-The NTSB dataset is too big for being uploaded on github. Please download it from the following [link](https://drive.google.com/file/d/1Md9vZRz7Q7Qc4NbkMTK5ZryUPgEHtjdT/view?usp=drive_link) and add the json file to the data_sources folder
+The NTSB dataset is too big for being uploaded on github. Please download it from the following [link](https://drive.google.com/file/d/1frWczU94UoCY7Cc6OIa43gVOPOkgix2w/view?usp=drive_link) and add the json file to the data_sources folder
