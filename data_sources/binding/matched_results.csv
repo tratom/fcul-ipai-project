@@ -1,0 +1,39 @@
+NtsbNumber,startDate,Vehicles.SerialNumber,Vehicles.RegistrationNumber,Vehicles.Make,Vehicles.Model,Matched_Aircraft,JW_Score,LEV_Score,JAC_Score,SimilarityScore
+gaa16ca444,1962,18830758,n65za,p z l -warszawa-cnpsl,pzl 104 wilga,pzl 104 wilga,1.0,1.0,1.0,1.0
+wpr22la106,1994,a267,n523ws,mckenzie john p,europa xs,europa xs,1.0,1.0,1.0,1.0
+nyc03wa057,1965,,f-bvfa,aerospatiale,concorde,concorde,1.0,1.0,1.0,1.0
+wpr09la151,1979,089,c-gcil,gates learjet corporation,learjet 55,learjet 55,1.0,1.0,1.0,1.0
+wpr13la314,1995,ac-102,n94c,luy wayman,lockwood aircam,lockwood aircam,1.0,1.0,1.0,1.0
+wpr14ca136,1983,ch2 1191 cwidio,n345mn,norman,quad city challenger,quad city challenger,1.0,1.0,1.0,1.0
+era11fa165,1967,eep/jp/165,n167sm,british aircraft corp,bac 167 strikemaster,bac strikemaster,0.96,0.8,0.667,0.824
+mia07la066,1962,00030015,n424hd,eads pzl warsza,pzl 104m wilga,pzl 104 wilga,0.986,0.929,0.5,0.8229
+anc17fa004,1959,2068,n5308f,fairchild heli-porter,pilatus pc 6,pilatus pc 6 porter,0.926,0.632,0.75,0.785
+era14la098,1997,085,n720qs,israel aircraft industries,gulfstream 200,gulfstream g200,0.987,0.933,0.333,0.7747
+wpr11ia055,1997,136,n718qs,israel aircraft industries,gulfstream 200,gulfstream g200,0.987,0.933,0.333,0.7747
+era11ia316,1997,165,n749qs,israel aircraft industries,gulfstream 200,gulfstream g200,0.987,0.933,0.333,0.7747
+era10la063,1925,306,n3823,curtiss wright,travel air,travel air 2000,0.933,0.667,0.667,0.7733
+gaa16ca049,1925,1059,n9872,curtiss wright,travel air,travel air 2000,0.933,0.667,0.667,0.7733
+wpr09ca429,1925,378,n4418,curtiss wright,travel air,travel air 2000,0.933,0.667,0.667,0.7733
+gaa16ca193,1937,1304,n28437,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+wpr23la198,1937,3410,n71983,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+era23la226,1937,6312,n1885b,silvaire,luscombe 8f,luscombe 8,0.982,0.909,0.333,0.7655
+anc14ca017,1937,5269,n2542k,silvaire,luscombe 8e,luscombe 8,0.982,0.909,0.333,0.7655
+cen14ca330,1937,5376,n2649k,silvaire,luscombe 8e,luscombe 8,0.982,0.909,0.333,0.7655
+wpr15fa258,1937,6388,n4948e,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+wpr16la004,1937,s-22,n9918c,silvaire,luscombe 8f,luscombe 8,0.982,0.909,0.333,0.7655
+anc12ca044,1937,s-9,n9906c,silvaire,luscombe 8f,luscombe 8,0.982,0.909,0.333,0.7655
+cen12ca054,1937,6526,n2099b,silvaire,luscombe 8f,luscombe 8,0.982,0.909,0.333,0.7655
+wpr12ca363,1937,5014,n2287k,silvaire,luscombe 8e,luscombe 8,0.982,0.909,0.333,0.7655
+era12fa491,1937,5488,n2761k,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+gaa15ca182,1937,2535,n71108,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+gaa15ca160,1937,1304,n28437,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+wpr09ca424,1937,4945,n2218k,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+era10ca334,1937,6143,n1516b,silvaire,luscombe 8a,luscombe 8,0.982,0.909,0.333,0.7655
+cen09ca283,1985,554 b,n8080k,gulfstream-schweizer a/c corp,gulfstream,gulfstream iv,0.954,0.769,0.5,0.7623
+dfw08ca235,1985,598b,n425ls,gulfstream-schweizer a/c corp,gulfstream,gulfstream iv,0.954,0.769,0.5,0.7623
+era10la021,1913,hac1,n4929,palen,avro 504k,avro 504,0.978,0.889,0.333,0.7578
+cen10la218,1983,340b437,n437xj,saab-scania,saab 340b,saab 340,0.978,0.889,0.333,0.7578
+anc08ia092,1983,340b-262,n364px,saab-scania ab (saab),saab 340b,saab 340,0.978,0.889,0.333,0.7578
+lax05la105,1983,340b-394,n394ae,saab-scania,saab 340b,saab 340,0.978,0.889,0.333,0.7578
+chi04la077,1983,340b-420,n420xj,saab-scania ab (saab),saab 340b,saab 340,0.978,0.889,0.333,0.7578
+chi04la033,1983,442,n442xj,saab-scania,saab 340b,saab 340,0.978,0.889,0.333,0.7578
