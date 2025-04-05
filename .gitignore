@@ -176,3 +176,4 @@ kaggle.json
 # Big dataset
 data_sources/ntsb-us-2003-2023.json
 data_sources/ntsb-us-2003-2023.csv
+data_sources/weather_results.json
