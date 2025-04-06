@@ -12,4 +12,4 @@ Faculty of Science, University of Lisbon
 #### NTSB Dataset
 The NTSB dataset is too big for being uploaded on github. Please download it from the following [link](https://drive.google.com/file/d/1frWczU94UoCY7Cc6OIa43gVOPOkgix2w/view?usp=drive_link) and add the json file to the `data_sources` folder
 
-Same for the weather dataset. Download it from [here](https://drive.google.com/file/d/1P0-1EoLXs7tXAdkNqnZ6wNjtD9gqIi4z/view?usp=drive_link)
+Same for the weather dataset. Download it from [here](https://drive.google.com/file/d/1UDxntxkzE82WjZuT49ju2nyNbFmkUs4u/view?usp=drive_link)
