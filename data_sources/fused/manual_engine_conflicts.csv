@@ -1,0 +1,84 @@
+Vehicles.SerialNumber,Vehicles.RegistrationNumber,Vehicles.Make,Vehicles.Model,Vehicles.NumberOfEngines,engine_count
+14-101,n4214h,piper,pa 14,0,1.0
+18504400,n714kh,cessna,a185,0,1.0
+185-1383,n2231t,cessna,a185,0,1.0
+15-6,n4123h,piper,pa 15,0,1.0
+502-0200,n9185d,air tractor,at 502,0,1.0
+2881139,n4400f,piper,pa 28 181,0,1.0
+377,n9566s,champion,7eca,0,1.0
+18502526,c-gozj,cessna,a185,0,1.0
+18-3985,n1124,piper,pa 18,0,1.0
+18501775,n5806j,cessna,a185,0,1.0
+18503765,n121ee,cessna,a185,0,1.0
+823-72,n11852,champion,7eca,0,1.0
+u20604225,n756nn,cessna,tu206,0,1.0
+137,n1682g,champion,7kcab,0,1.0
+18801952t,n78417,cessna,a188,0,1.0
+u20601801,n441gr,cessna,u206,0,1.0
+18802101t,n9076r,cessna,a188,0,1.0
+p21000407,n7546k,cessna,p210n,0,1.0
+379,n90365,globe,gc 1a,0,1.0
+u20604467,n16gp,cessna,u206g,0,1.0
+502b-2672,n421ca,air tractor inc,at 502b,0,1.0
+18502014,n185lc,cessna,a185e,0,1.0
+u20601775,n9575g,cessna,u206f,0,1.0
+32r-8113048,n43ww,piper,pa 32r 301,0,1.0
+19000624,n373jb,embraer,erj 190 100 igw,0,2.0
+1655,n971qc,grumman acft eng cor schweizer,g 164a,0,1.0
+602-0526,n602l,air tractor inc,at 602,0,1.0
+402-0720,n1016g,air tractor inc,at 402,0,1.0
+502b-2830,n502wc,air tractor inc,at 502b,0,1.0
+502b-0452,n5044n,air tractor inc,at 502b,0,1.0
+r18200450,n133bw,cessna,r182,0,1.0
+t310q-0611,n301ja,cessna,t310q,0,2.0
+r18201393,n4707s,cessna,tr182,0,1.0
+602-1226,n3026r,air tractor inc,at 602,0,1.0
+255b,n311al,grumman,g 164b,0,1.0
+32r-7780527,n43829,piper,pa 32r 300,0,1.0
+502b-2693,n502lh,air tractor inc,at 502b,0,1.0
+602-1192,n6007n,air tractor inc,at 602,0,1.0
+u20602538,n206cl,cessna,u206f,0,1.0
+310r1628,n72tp,cessna,t310r,0,2.0
+t18803916t,n9987j,cessna,t188c,0,1.0
+r18201722,n4645t,cessna,tr182,0,1.0
+1556,n8875h,grumman acft eng cor schweizer,g 164a,0,1.0
+t18803383t,n2093j,cessna,t188c,0,1.0
+1250,n9755,grumman acft eng cor schweizer,g 164a,0,1.0
+49540,n909dl,mcdonnell douglas aircraft co,md 88,0,2.0
+4636324,n427ab,piper,pa 46 350p,0,1.0
+18803048,n731pm,cessna,a188b,0,1.0
+s550-0141,n550aj,cessna,s550,0,2.0
+7gcaa-33,n2535f,champion,7gcaa,0,1.0
+22-1465,n8883c,piper,pa 22,0,1.0
+18800977t,n730gu,cessna,a188b,0,1.0
+401b-1208,n4223f,air tractor inc,at 401b,0,1.0
+r18201353,n4602s,cessna,tr182,0,1.0
+502-0213,n9185g,air tractor inc,at 502,0,1.0
+1453-2009,n162cg,american champion aircraft,7gcbc,0,1.0
+602-1197,n602rr,air tractor inc,at 602,0,1.0
+802a-0310,n802kt,air tractor inc,at 802a,0,1.0
+22016c,n10503,maule,mx 7 180b,0,1.0
+c0098,n108wa,diamond aircraft ind inc,da 20,0,1.0
+18502839,n185cy,cessna,a185f,0,1.0
+768-74,n88342,bellanca,7gcbc,0,1.0
+4051c,n88cr,maule,mx 7 235,0,1.0
+44-73458a,n4151d,north american,p 51d,0,1.0
+302-0223,n3650b,air tractor inc,at 302,0,1.0
+39973,f-gzni,boeing,777 300,0,2.0
+145631,n834ae,embraer,emb 135kl,0,2.0
+21d,n8267k,grumman,g 164d,0,1.0
+17000078,n856rw,embraer,erj 170 100 se,0,2.0
+22201,n921uw,boeing,757 200,0,2.0
+2842t81,n140ft,piper,pa 28 161,0,1.0
+30-1776,n8635y,piper,pa 30,1,2.0
+30-1587,n555em,piper,pa 30,1,2.0
+n915fr,n915fr,airbus industrie,a 319,0,2.0
+27888,n793sa,boeing,737 700,1,2.0
+23-1751,n4252p,piper,pa 23 160,1,2.0
+1051,n327,grumman,g 21a,1,2.0
+30-882,n7803y,piper,pa 30,1,2.0
+18502390,n101am,cessna,a185f,0,1.0
+32-8006017,n8173j,piper,pa 32 301,2,1.0
+t18803794t,n9314j,cessna,t188c,0,1.0
+26579,n368sw,boeing,737 300,0,2.0
+39-37,n230sw,piper,pa 39,1,2.0
