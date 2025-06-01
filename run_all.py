@@ -9,4 +9,4 @@ print(f"Ficheiros encontrados em datasource/: {data_files}")
 
 # Correr o script principal
 print("A correr pipeline_step.py ...")
-subprocess.run(["python", "pipeline_step.py"], check=True)
+subprocess.run(["python", "pipeline_step_test.py"], check=True)
