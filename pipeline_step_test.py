@@ -20,7 +20,7 @@ import os
 import time
 import seaborn as sns
 import calendar
-#import py_stringmatching as sm
+import py_stringmatching as sm
 import re
 from tqdm import tqdm
 from pathlib import Path
@@ -800,36 +800,43 @@ def clean_text(s):
 accident_weather['Vehicles.Model'] = accident_weather['Vehicles.Model'].apply(clean_text)
 accident_weather['Vehicles.Make'] = accident_weather['Vehicles.Make'].apply(clean_text)
 
+accident_weather_path = 'data_sources/fused/accident_weather.pkl'
+matched_results_path = 'data_sources/binding/matched_results.csv'
+
+accident_weather_df = pd.read_pickle(accident_weather_path)
+matched_results_df = pd.read_csv(matched_results_path)
+
 # Normalize casing for matching
-df_matches['NtsbNumber'] = df_matches['NtsbNumber'].str.lower()
-df_matches['EventDate'] = pd.to_datetime(df_matches['EventDate'], errors='coerce')
-df_matches['Vehicles.SerialNumber'] = df_matches['Vehicles.SerialNumber'].str.lower()
-df_matches['Vehicles.RegistrationNumber'] = df_matches['Vehicles.RegistrationNumber'].str.lower()
-df_matches['Vehicles.Make'] = df_matches['Vehicles.Make'].str.lower()
-df_matches['Vehicles.Model'] = df_matches['Vehicles.Model'].str.lower()
+matched_results_df['NtsbNumber'] = matched_results_df['NtsbNumber'].str.lower()
+matched_results_df['EventDate'] = pd.to_datetime(matched_results_df['EventDate'], errors='coerce')
+matched_results_df['Vehicles.SerialNumber'] = matched_results_df['Vehicles.SerialNumber'].str.lower()
+matched_results_df['Vehicles.RegistrationNumber'] = matched_results_df['Vehicles.RegistrationNumber'].str.lower()
+matched_results_df['Vehicles.Make'] = matched_results_df['Vehicles.Make'].str.lower()
+matched_results_df['Vehicles.Model'] = matched_results_df['Vehicles.Model'].str.lower()
 
-df_matches.drop(columns=["JW_Score","LEV_Score","Jac_Score","SimilarityScore","Matched_Aircraft_Model"], errors='ignore', inplace=True)
+matched_results_df.drop(columns=["JW_Score","LEV_Score","Jac_Score","SimilarityScore","Matched_Aircraft_Model"], errors='ignore', inplace=True)
 
 
-accident_weather['NtsbNumber'] = accident_weather['NtsbNumber'].str.lower()
-accident_weather['EventDate'] = pd.to_datetime(accident_weather['EventDate'], errors='coerce')
-accident_weather['Vehicles.SerialNumber'] = accident_weather['Vehicles.SerialNumber'].astype(str).str.lower()
-accident_weather['Vehicles.RegistrationNumber'] = accident_weather['Vehicles.RegistrationNumber'].astype(str).str.lower()
-accident_weather['Vehicles.Make'] = accident_weather['Vehicles.Make'].astype(str).str.lower()
-accident_weather['Vehicles.Model'] = accident_weather['Vehicles.Model'].astype(str).str.lower()
 
-accident_weather.drop(columns=["Vehicles.VehicleNumber"], errors='ignore', inplace=True)
-accident_weather.rename(columns={"wx_time": "weather_time"}, inplace=True)
+accident_weather_df['NtsbNumber'] = accident_weather_df['NtsbNumber'].str.lower()
+accident_weather_df['EventDate'] = pd.to_datetime(accident_weather_df['EventDate'], errors='coerce')
+accident_weather_df['Vehicles.SerialNumber'] = accident_weather_df['Vehicles.SerialNumber'].astype(str).str.lower()
+accident_weather_df['Vehicles.RegistrationNumber'] = accident_weather_df['Vehicles.RegistrationNumber'].astype(str).str.lower()
+accident_weather_df['Vehicles.Make'] = accident_weather_df['Vehicles.Make'].astype(str).str.lower()
+accident_weather_df['Vehicles.Model'] = accident_weather_df['Vehicles.Model'].astype(str).str.lower()
 
-for key in accident_weather.columns:
+accident_weather_df.drop(columns=["Vehicles.VehicleNumber"], errors='ignore', inplace=True)
+accident_weather_df.rename(columns={"wx_time": "weather_time"}, inplace=True)
+
+for key in accident_weather_df.columns:
     if key.startswith('wx_'):
-        accident_weather.rename(columns={key: key[3:]}, inplace=True)
+        accident_weather_df.rename(columns={key: key[3:]}, inplace=True)
 
 # Define the merge keys
 merge_keys = ['NtsbNumber','EventDate','Vehicles.SerialNumber', 'Vehicles.RegistrationNumber', 'Vehicles.Make', 'Vehicles.Model']
 
 # Perform the merge
-fused_df = accident_weather.merge(
+fused_df = accident_weather_df.merge(
     df_matches,
     how='left',
     left_on=merge_keys,
