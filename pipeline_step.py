@@ -23,12 +23,12 @@ import os
 import time
 import seaborn as sns
 import calendar
-#import py_stringmatching as sm
+import py_stringmatching as sm
 import re
 from tqdm import tqdm
 from pathlib import Path
 
-
+print(f'\n--- NTSB JSON loaded: {len(ntsb_raw_data)} total records found ---')
 # ### 1. Data Loading
 
 # In[4]:
