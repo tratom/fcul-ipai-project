@@ -1,5 +1,11 @@
 Column,DataType,TotalCount,NonNullCount,NumMissing,MissingPerc,Cardinality,Mode,ModeFreq,Mean,Min,Q25,Q50,Q75,Max,Std
-aircraft,object,1266,1266,0,0.0,1265,mcdonnell douglas f-4 phantom ii in uk service,2,,,,,,,
-nbBuilt,int64,1266,1266,0,0.0,633,1,69,1252.5355450236966,0.0,32.25,185.0,703.0,43400.0,3618.899937553408
-startDate,int64,1266,1266,0,0.0,123,1936,33,1929.436018957346,1.0,1937.0,1951.0,1974.75,2015.0,224.91881595100668
-endDate,Int64,1266,997,269,21.25,119,1945,51,1930.3029087261784,1.0,1938.0,1949.0,1979.0,2016.0,227.82675576881053
+manufacturer_code,object,2270,2270,0,0.0,35,cessna,300,,,,,,,
+model_no,object,2270,2270,0,0.0,1254,nan,659,,,,,,,
+model_name,object,2270,1543,727,32.03,623,Huron,15,,,,,,,
+engine_count,int64,2270,2270,0,0.0,5,1,1152,1.5806167400881057,1.0,1.0,1.0,2.0,8.0,0.7213751914515227
+engine_type,category,2270,2270,0,0.0,4,Piston,1242,,,,,,,
+aircraft_desc,object,2270,2270,0,0.0,4,LandPlane,2171,,,,,,,
+description,object,2270,2270,0,0.0,18,L1P,970,,,,,,,
+wtc,object,2270,2270,0,0.0,5,L,1496,,,,,,,
+tdesig,object,2270,2270,0,0.0,526,P28A,47,,,,,,,
+wtg,object,2270,2267,3,0.13,9,G,1775,,,,,,,

@@ -18,6 +18,6 @@ Same for the weather dataset. Download it from [here](https://drive.google.com/f
 
 ##### Running the project
 
-Our project is present in project.ipynb. Make sure to install all the required libraries, indicated in the first cell of the notebook.
+Our project is present in `project.ipynb`. Make sure to install all the required libraries, indicated at the first cell of the notebook.
 
 The file `ntsb_with_zero_shot.csv` shouldn't be deleted, as it is created by another script which takes a lot of computation power (`Bert_text_classification.py`).
